@@ -123,8 +123,8 @@ float:right;
 
 footer {
   width: 100%;
-  background-color: white;
   margin-bottom: 50px;
+  background-color: white;
   color: gray;
   text-align: center;
   padding: 10px 0;
@@ -137,8 +137,6 @@ footer {
   font-size: 40px;
   margin: 0 150px;
 }
-.footer_icon i:hover {
-  color: rgb(162, 211, 95);
-}
+
 
   /* fine footer */
