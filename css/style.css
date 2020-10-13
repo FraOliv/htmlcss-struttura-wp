@@ -5,12 +5,12 @@
 }
 body{
   background-image: url(../img/natural-default-pattern.png);
- margin: 100px;
+  margin: 100px;
+  height: 100%
 
 }
-main {
-  height: 1000px
-}
+
+/* inizio header */
 
 .nav_header{
   width: 100%;
@@ -59,8 +59,6 @@ ul li:hover{
 
 }
 
-
-
 li a{
   color: white;
   text-decoration:none;
@@ -71,7 +69,12 @@ li a{
   font-size:18px
 
 }
+/* fine header */
 
+/* inizio main */
+main {
+  height: 100%
+}
 
 .container:after {
 content: "";
@@ -79,11 +82,10 @@ display: table;
 clear: both;
 }
 .container .section{
-  margin: 5px;
+  margin: 1%;
   border-radius: 2%;
-  padding: 20px;
   background-color: white;
-  padding: 15px;
+  padding: 2%
 }
 
 .left{
@@ -91,7 +93,8 @@ clear: both;
   width:20%;
 }
 .left .section p{
-  color: green
+  color: green;
+  padding: 2%
 }
 .center{
   float:left;
@@ -101,9 +104,19 @@ clear: both;
 .right{
 width: 20%;
 float:right;
-
-
 }
+.right .section{
+  margin-bottom: :10%
+}
+
+.right .section p{
+  margin-top: 2%;
+}
+
+
+/* fine main */
+
+/* inizio footer */
 
 footer {
   background-color: white;
@@ -116,4 +129,8 @@ footer {
   }
 
   .footer_text{
+    background: rgba(0, 0, 0, 0.2);
+    color: grey
   }
+
+  /* fine footer */
