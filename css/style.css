@@ -5,7 +5,10 @@
 }
 body{
   background-image: url(../img/natural-default-pattern.png);
-  margin: 100px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100%;
 
 }
 
@@ -51,18 +54,17 @@ clear: both;
   float:left;
   width:20%;
 }
+
 .left .section p{
   color: green;
-  padding: 2%
+  padding: 2%;
 }
+
 .left .section i{
   font-size: 30px;
   color: orange;
-  padding: 2%
-
-
+  padding: 2%;
 }
-
 .center{
   float:left;
   width: 50%;
@@ -77,9 +79,9 @@ clear: both;
 }
 footer {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   background-color: white;
   text-align: center;
   padding: 10px 0;
-  height: 200px
+  height: 200px;
   }
