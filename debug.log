@@ -1,0 +1,3 @@
+[1014/095438.391:ERROR:directory_reader_win.cc(43)] FindFirstFile: Impossibile trovare il percorso specificato. (0x3)
+[1014/115041.248:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\olivo\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\84021108-52e8-4ce1-baf4-3788d0198d66: Impossibile trovare il percorso specificato. (0x3)
+[1014/115044.512:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\olivo\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\bce4bb70-51a2-4e8a-b9eb-05961d940cd3: Impossibile trovare il percorso specificato. (0x3)
